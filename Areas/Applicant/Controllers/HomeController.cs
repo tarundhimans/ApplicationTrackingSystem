@@ -2,9 +2,9 @@ using ApplicationTrackingSystem.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace ApplicationTrackingSystem.Areas.Customer.Controllers
+namespace ApplicationTrackingSystem.Areas.Applicant.Controllers
 {
-    [Area("Customer")]
+    [Area("Applicant")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

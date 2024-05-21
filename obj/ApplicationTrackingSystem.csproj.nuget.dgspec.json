@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ASP.NET MVC\\ApplicationTrackingSystem\\ApplicationTrackingSystem.csproj": {}
+    "E:\\New folder (2)\\ApplicationTrackingSystem\\ApplicationTrackingSystem.csproj": {}
   },
   "projects": {
-    "E:\\ASP.NET MVC\\ApplicationTrackingSystem\\ApplicationTrackingSystem.csproj": {
+    "E:\\New folder (2)\\ApplicationTrackingSystem\\ApplicationTrackingSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ASP.NET MVC\\ApplicationTrackingSystem\\ApplicationTrackingSystem.csproj",
+        "projectUniqueName": "E:\\New folder (2)\\ApplicationTrackingSystem\\ApplicationTrackingSystem.csproj",
         "projectName": "ApplicationTrackingSystem",
-        "projectPath": "E:\\ASP.NET MVC\\ApplicationTrackingSystem\\ApplicationTrackingSystem.csproj",
+        "projectPath": "E:\\New folder (2)\\ApplicationTrackingSystem\\ApplicationTrackingSystem.csproj",
         "packagesPath": "C:\\Users\\Madhu\\.nuget\\packages\\",
-        "outputPath": "E:\\ASP.NET MVC\\ApplicationTrackingSystem\\obj\\",
+        "outputPath": "E:\\New folder (2)\\ApplicationTrackingSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
