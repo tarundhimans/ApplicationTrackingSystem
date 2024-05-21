@@ -1,1 +1,34 @@
-﻿<h1>Hello</h1>
+﻿@model IEnumerable<ApplicationTrackingSystem.Models.JobPost>
+@{
+    ViewBag.Title = "Job Posts";
+    var currentDate = ViewBag.CurrentDate;
+}
+
+<div>
+    <h1>Job Posts</h1>
+    <div style="text-align: right;">
+        <span>@currentDate</span>
+    </div>
+    <p>
+        <a asp-action="Create" class="btn btn-primary">Create New</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var jobPost in Model)
+            {
+                <tr>
+                    <td>@jobPost.Title</td>
+                    <td>
+                        <textarea rows="5" cols="40" readonly>@jobPost.Description</textarea>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
